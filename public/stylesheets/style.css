@@ -1,0 +1,241 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.container h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.logo-emi {
+    max-width: 220px;
+    min-width: 160px;
+    height: 75px;
+}
+
+.nav-link,
+.navbar-brand {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-brand {
+    margin: 0px;
+}
+
+.nav-link:hover {
+    color: orange;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.topmargin-xs {
+    margin-top: 25px !important;
+}
+
+.topmargin-sm {
+    margin-top: 50px !important;
+}
+
+.topmargin-lg {
+    margin-top: 100px !important;
+}
+
+.botmargin-sm {
+    margin-bottom: 10px !important;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: white;
+    color: black;
+    border: 1px solid black !important;
+}
+
+.btn-darkenviar {
+    background-color: #1a1a1a;
+    color: white;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#enviarContacto:hover {
+    background-color: grey;
+    color: black;
+    border: 1px solid black;
+}
+
+#iconButtom {
+    margin-left: 5px;
+}
+
+#hero p {
+    color: white;
+}
+
+#hero {
+    background-image: url("../imagenes/principal.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+.content-center {
+    max-width: 800px;
+    text-align: center;
+    margin: 60px auto 0px auto;
+}
+
+.portfolio-container img {
+    width: 100%;
+    height: 100%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portfolio-container:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.portfolio-container {
+    position: relative;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.portfolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 20;
+    color: white;
+}
+
+.portfolio-details h2 {
+    margin-bottom: 0px;
+}
+
+#fondoColor {
+    background-color: gainsboro
+}
+
+#contacto {
+    font-size: 30px;
+}
+
+.medark {
+    background-color: #1a1a1a !important;
+    width: 100%;
+}
+
+.border-containers {
+    border: 1px solid black;
+    border-radius: 7%;
+    padding: 15px;
+    height: auto;
+    text-align: center;
+}
+
+.form-control {
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 2px;
+    height: auto;
+}
+
+#contact .form-control:focus {
+    border: 1px solid black;
+    outline: none;
+    box-shadow: none;
+}
+
+footer {
+    text-decoration: none;
+    padding: 80px 0px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer,
+.list-inline,
+.list-inline-item {
+    padding: 10px 15px;
+}
+
+.footerIcon {
+    font-size: 30px;
+}
+
+.medark .footer-menu {
+    text-decoration: none;
+}
+
+.footerIconOnly:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.footer-lista:hover {
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+@media (max-width: 575.98px) {
+    .container h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+    .btn {
+        margin-bottom: 30px;
+    }
+}
